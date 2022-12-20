@@ -6,4 +6,5 @@
 - Wind
 - Rain %
 - Temperature
-- Live Time 
+- Live Time
+- bring all weather live data
