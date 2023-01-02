@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial scale=1.0">
-<title>Document</title>
-</head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Document</title>
+  </head>
 
 <body>
- <center>
-   <h1>Weather App</h1>
-   <h2>Humidity: <span id="humidity">00</span>%</h2>
-   <h2>Wind: <span id="wind">00</span> km/h</h2>
-   <h2>Temperature: <span id="temperature">00</span>°C</h2>
-  <strong><h2> <img id="icon" src="" alt=""><span></span></h2></strong>
-  <!--<div class="weather-icon"><img src="http://openweathermap.org/img/w/04d.png" /></div>-->
-   <h1> Time <span id="time"> </span></h1>
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3138.611625145935!2d13.355889214943002!3d38.125968879697005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319ef587ac97963%3A0x5330d10389add988!2sVia%20Roma%2C%20906%2C%2090139%20Palermo%20PA%2C%20Italy!5e0!3m2!1sen!2sbd!4v1671730018196!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   <script>
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+  <center>
+    <h1>Weather App</h1>
+    <h2>Humidity: <span id="humidity">00</span>%</h2>
+    <h2>Wind: <span id="wind">00</span> km/h</h2>
+    <h2>Temperature: <span id="temperature">00</span>°C</h2>
+    <strong>
+      <h2> <img id="icon" src="" alt=""><span></span></h2>
+    </strong>
+    <!--<div class="weather-icon"><img src="http://openweathermap.org/img/w/04d.png" /></div>-->
+    <h1> Time <span id="time"> </span></h1>
+    <!-- <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3138.611625145935!2d13.355889214943002!3d38.125968879697005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319ef587ac97963%3A0x5330d10389add988!2sVia%20Roma%2C%20906%2C%2090139%20Palermo%20PA%2C%20Italy!5e0!3m2!1sen!2sbd!4v1671730018196!5m2!1sen!2sbd"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <script>
+      src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
       defer
-    </script>
-  </center>
-  
-<script src="index.js">   </script>
+    </script> -->
+    <!-- AIzaSyDNMgm8b1mwD4P1iCJiaMdzKFfIXSGG-3g -->
+
+    <iframe id="map" width="600" height="600" frameborder="0" style="border:0" referrerpolicy="no-referrer-when-downgrade" allowfullscreen>
+    </iframe>
+  </center>z
+  <script src="index.js">   </script>
 </body>
+
 </html>
